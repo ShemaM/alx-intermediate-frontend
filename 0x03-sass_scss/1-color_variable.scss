@@ -1,7 +1,11 @@
+// Define a variable for the text color
+$text-color: #3D3D3D;
+
+// Use the variable for both body and paragraph tags
 body {
-  color: #3D3D3D; 
+  color: $text-color;
 }
 
 p {
-  color: #3D3D3D;
+  color: $text-color;
 }
